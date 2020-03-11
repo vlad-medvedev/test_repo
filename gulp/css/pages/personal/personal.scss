@@ -1,0 +1,59 @@
+@import 'personal__main';
+
+
+.personal__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal__bg {
+  background: url("/local/templates/kdteam/images/personal/personal__bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 93vh;
+  width: 100%;
+  display: block;
+}
+.personal__bg--overfill {
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.25);
+}
+.personal__auth_form {
+  position: absolute;
+  background: #f5f5f5;
+  height: auto;
+  width: 50vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 19px;
+}
+.personal__auth_form--log {
+  width: 100%;
+}
+.personal__auth_form--title-block {
+  margin-bottom: 1rem;
+}
+.personal__auth_form--title {
+  font-size: 1.506rem;
+}
+.personal__auth_form___additionally {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+.personal__auth_form___additionally--item:hover{
+  color:#5a8d3e;
+}
+.personal__auth_form--log .button-primary:hover{
+  -webkit-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
+}

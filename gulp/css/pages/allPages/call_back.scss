@@ -1,0 +1,132 @@
+@import "../../libs/magnificPopup";
+
+.popup {
+  background: #ffffff;
+  position: relative;
+  padding: 60px;
+  width: auto;
+  max-width: 420px;
+  margin: 0 auto;
+
+  .mobile & {
+    padding: 20px;
+  }
+}
+
+.mfp-custom .mfp-close {
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  background: url(/local/templates/kdteam/images/allPages/x.svg) 0 0 no-repeat;
+  background-size: 20px 20px;
+  opacity: 1;
+  top: -26px;
+  right: -34px;
+
+  .mobile & {
+    right: 0;
+  }
+}
+
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.35;
+}
+
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
+.callback-mic-id {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.call_back {
+  text-align: center;
+
+  &__title {
+    font-size: 1.506rem;
+    margin: 0 0 20px;
+    display: block;
+  }
+
+  &__form {
+
+  }
+  &__form_item {
+    margin-bottom: 20px;
+  }
+  &__form_field {
+    width: 100%;
+    border-radius: 0;
+    color: #000;
+    font-size: 0.8428rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 18px;
+
+    &--hasError {
+      border-color: red;
+    }
+  }
+  &__form_privacy {
+    font-size: 0.8428rem;
+    color: #8e8e8e;
+    text-align: center;
+  }
+  &__form_submit {
+    width: 190px;
+    margin: 20px auto 0;
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.call_back_success {
+
+  text-align: center;
+
+  &__title {
+    font-size: 1.506rem;
+    margin: 0 0 20px;
+    display: block;
+  }
+
+  &__text {
+    font-size: 0.8428rem;
+    color: #8e8e8e;
+    text-align: center;
+  }
+
+  &__btn {
+    width: 190px;
+    margin: 20px auto 0;
+    display: block;
+    cursor: pointer;
+  }
+
+}

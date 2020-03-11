@@ -1,0 +1,25 @@
+@import "../../../libs/values";
+
+.footer_menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  &__item {
+    margin-top: 9px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  &__link {
+    display: block;
+    line-height: 1;
+    &:hover,
+    &:focus,
+    &:active,
+    &--selected {
+      color: $footerLinkColor;
+    }
+  }
+}

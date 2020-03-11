@@ -1,0 +1,101 @@
+/configs/*
+.htaccess
+robots.txt
+*.txt
+*.xml
+*.log
+*.csv
+/upload/*
+/vendor/*
+.DS_Store
+Thumbs.db
+/.idea/
+/bitrix/backup
+/bitrix/cache
+/bitrix/images
+/bitrix/managed_cache
+/bitrix/php_interface/dbconn.php
+/bitrix/.settings.php
+/bitrix/stack_cache
+/bitrix/updates
+/bitrix/tmp
+/bitrix/tools/captcha/si.error_log
+/xml/flat_images/*
+/xml/mitz.kdteam.flats_no_images/*
+/xml/mitz.kdteam.import/*
+/xml/*.xml
+/xml_commercial/*.xml
+/xml_commercial_gk/*.xml
+license_key.php
+/bitrix/html_pages
+/bitrix/html_pages/.enabled
+*.log
+composer.json
+composer.lock
+
+# Created by .ignore support plugin (hsz.mobi)
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+/3d-tour/
+/landscaping/
+/node_modules/

@@ -1,0 +1,43 @@
+.footer_social {
+
+  &__title {
+    font-size: 0.9632rem;
+    color: #4e4944;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    margin-left: -10px !important;
+    font-size: 0;
+  }
+
+  &__item {
+    padding-left: 10px;
+  }
+
+  &__link {
+    display: inline-block;
+    background-size: 100% 100%;
+
+    &--facebook {
+      background: url(/local/templates/kdteam/images/allPages/Facebook.svg) 0 0 no-repeat;
+      width: 12px;
+      height: 24px;
+    }
+
+    &--instagram {
+      background: url(/local/templates/kdteam/images/allPages/instagram.svg) 0 0 no-repeat;
+      width: 23px;
+      height: 24px;
+    }
+
+    &--vkontakte {
+      background: url(/local/templates/kdteam/images/allPages/VK.svg) 0 0 no-repeat;
+      width: 23px;
+      height: 17px;
+    }
+  }
+}

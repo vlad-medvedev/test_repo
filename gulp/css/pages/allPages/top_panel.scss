@@ -1,0 +1,88 @@
+@import "../../libs/values";
+.top_panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, .3);
+
+  width: 100%;
+  background: #fff;
+
+  .desctop & {
+    height: $asidePosition;
+  }
+  .tablet & {
+    height: $asidePositionTablet;
+  }
+  .mobile & {
+    height: $asidePositionMobile;
+  }
+
+  &__inner {
+    width: calc(13.88889vw - 2.36111px);
+    position: relative;
+    height: 100%;
+    text-align: center;
+
+    .tablet & {
+      padding: 0 30px;
+      text-align: left;
+    }
+
+    .mobile & {
+      padding: 0 15px;
+    }
+  }
+
+  &__logo {
+    display: inline-block;
+    margin-top: 10px;
+    background-image: url(/local/templates/kdteam/images/allPages/mic_logo_.svg);
+    background-repeat: no-repeat;
+    width: 146px;
+    height: 62px;
+    background-size: cover;
+
+    .tablet & {
+      width: 118px;
+      height: 50px;
+    }
+
+    .mobile & {
+      width: 94px;
+      height: 40px;
+      margin-top: 5px;
+    }
+  }
+  &__personal___btn{
+      height: 100%;
+      margin: 0 3vw;
+
+    &--item{
+      display: block;
+      filter: contrast(0.5);
+      padding: .33rem;
+    }
+
+    &--item:hover{
+      filter: contrast(1);
+      border: 1px solid black;
+      border-radius: 50%;
+      padding: .33rem;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+
+    &--item-img{
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

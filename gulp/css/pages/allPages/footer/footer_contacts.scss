@@ -1,0 +1,12 @@
+.footer_contacts {
+
+  line-height: 1;
+
+  &__item {
+    margin-top: 9px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

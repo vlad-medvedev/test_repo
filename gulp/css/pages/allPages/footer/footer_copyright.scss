@@ -1,0 +1,21 @@
+.footer_copyright {
+  font-size: 0.8428rem;
+
+  position: relative;
+  line-height: 19.5px;
+  min-height: 39px;
+  display: inline-block;
+  text-align: left;
+
+  &:before {
+    content: '';
+    display: block;
+    background-image: url(/local/templates/kdteam/images/allPages/mic_logo_.svg);
+    background-size: cover;
+    width: 94px;
+    height: 39px;
+    left: 0;
+    top: 0;
+    margin-bottom: 6px;
+  }
+}

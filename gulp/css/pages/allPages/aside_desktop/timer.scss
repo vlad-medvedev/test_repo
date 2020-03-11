@@ -1,0 +1,39 @@
+.cf-timer {
+  padding: 0 0 10px;
+}
+
+.cf-timer .title {
+  display: block;
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: .8rem;
+  color: #D52427;
+  font-weight: bold;
+}
+
+.cf-desc {
+  width: calc(100% - 75px);
+}
+
+.timer-separator {
+  color: #fff !important;
+}
+@media screen and (max-width: 1650px) {
+  .text-desc {
+    font-size: 1.0836rem;
+    line-height: 1.85rem;
+  }
+  .cf-desc {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .cf-desc {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .cf-desc {
+    width: 50%;
+  }
+}

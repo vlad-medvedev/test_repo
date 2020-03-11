@@ -1,0 +1,31 @@
+{
+  "name": "gulp_kdteam",
+  "version": "1.0.0",
+  "description": "",
+  "author": "v.medvedev",
+  "license": "ISC",
+  "dependencies": {
+    "graceful-fs": "^4.1.15",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-clean-css": "3.9.3",
+    "gulp-cli": "^2.0.1",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^1.12.1",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svg2png": "^0.3.0",
+    "gulp-svgmin": "^1.1.2",
+    "gulp-uglify": "^1.1.0",
+    "gulp-watch": "^4.1.1",
+    "gulp.spritesmith": "^3.8.2",
+    "imagemin-pngquant": "^4.0.0",
+    "minimatch": "^3.0.4"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "gulp": "gulp"
+  }
+}
